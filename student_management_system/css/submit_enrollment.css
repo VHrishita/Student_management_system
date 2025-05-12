@@ -1,0 +1,35 @@
+/* submit_enrollment.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #96c0e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message-box {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.message-box h3 {
+    color: green;
+}
+
+.message-box a {
+    display: inline-block;
+    margin-top: 15px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.message-box a:hover {
+    background: #0056b3;
+}

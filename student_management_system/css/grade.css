@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+.navbar {
+    background-color: #7f55b1;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #f49bab;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff9a8b;
+}
+
+.container h2 {
+    color: #f49bab; /* Stylish color */
+    text-align: center; /* Center text horizontally */
+    font-size: 32px; /* Bigger font size for emphasis */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase for a more striking look */
+    margin-bottom: 20px;
+    letter-spacing: 2px; /* Add letter spacing */
+    background: linear-gradient(to right, #e5989b, #f6c8b5); /* Gradient background */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Make text transparent so gradient shows */
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #c599b6;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table td {
+    font-size: 1rem;
+    color: #555;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.card p {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+}
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input:focus {
+    border-color: #ff9a8b;
+}
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-bar select {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
